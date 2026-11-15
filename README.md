@@ -1,4 +1,39 @@
-# Pasture Records System 
+# Pasture Records Management System
+## Project Overview
+The Pasture Records Management System is a Python-based application developed to manage paddock and pasture information efficiently. It allows users to maintain pasture records, monitor pasture conditions, and review historical information through a menu-driven interface. The system focuses on organising pasture data, improving record management, and providing useful summaries to support pasture monitoring.
+
+## Features
+Paddock Management: Manage paddock information and related pasture records.
+Pasture Record Management: Record and maintain pasture information.
+Historical Records: Keep track of previous pasture records for reference.
+Data Validation: Validate user inputs to help maintain accurate records.
+Exception Handling: Handle invalid inputs and unexpected errors.
+Statistical Summaries: Calculate average, minimum, and maximum values to help analyse pasture information.
+Menu-Driven Interface: Provide a straightforward way for users to navigate the system and access its functions.
+
+## Technologies Used
+Python
+Data structures and functions
+Input validation
+Exception handling
+
+## Key Learning Outcomes
+Through this project, I developed practical programming skills in:
+Designing and developing a menu-driven Python application.
+Managing and organising structured data.
+Implementing input validation and exception handling.
+Performing calculations and generating statistical summaries.
+Developing logical solutions to practical record-management requirements.
+
+## How to Run
+Clone or download this repository.
+Open the project folder in Visual Studio Code or another Python development environment.
+Run the main Python file.
+Follow the menu instructions to interact with the system.
+
+## Project Purpose
+This project demonstrates the application of Python programming concepts to a practical pasture record-management scenario, with an emphasis on data organisation, validation, and basic statistical analysis.
+
 ## Test normal input
 | Feature/Function Tested               | Purpose of Test       | Input/Starting Data | Expected Result                    | Actual Result                                     |
 | list_poddocks()                       | Test normal selection | 1           | Display paddocks details: ID, name, contact| Paddocks details displayed: ID,name, contact      |
